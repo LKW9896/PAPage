@@ -5,9 +5,9 @@ app = Flask(__name__)
 def findex():
     return render_template('index.html')
 
-@app.route('/<page_name>.html')
+@app.route('/<page_name>')
 def page(page_name):
-    return render_template(f'{page_name}.html')
+    return render_template(f'{page_name}')
 
 @app.route('/search_index.json')
 def search():

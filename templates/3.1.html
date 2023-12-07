@@ -1,949 +1,536 @@
-
-<!DOCTYPE HTML>
-<html lang="" >
-    <head>
-        <meta charset="UTF-8">
-        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>最简单的操作系统 · GitBook</title>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="description" content="">
-        <meta name="generator" content="GitBook 3.2.3">
-        
-        
-        
-    
-    <link rel="stylesheet" href="gitbook/style.css">
-
-    
-            
-                
-                <link rel="stylesheet" href="gitbook/gitbook-plugin-intopic-toc/style.css">
-                
-            
-                
-                <link rel="stylesheet" href="gitbook/gitbook-plugin-page-footer-ex/style/plugin.css">
-                
-            
-                
-                <link rel="stylesheet" href="gitbook/gitbook-plugin-callouts/plugin.css">
-                
-            
-                
-                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
-                
-            
-                
-                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
-                
-            
-                
-                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
-                
-            
-                
-                <link rel="stylesheet" href="gitbook/gitbook-plugin-theme-comscore/test.css">
-                
-            
-        
-
-    
-
-    
-        
-        <link rel="stylesheet" href="styles.css">
-        
-    
-        
-    
-
-        
-    
-    
-    <meta name="HandheldFriendly" content="true"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
-    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
-
-    
-    <link rel="next" href="3.2.html" />
-    
-    
-    <link rel="prev" href="PA3.html" />
-    
-
-    </head>
-    <body>
-        
+{% extends 'base.html' %}
+{% block head %}
+<title>最简单的操作系统 · GitBook</title>
+<link href="3.2.html" rel="next"/>
+<link href="PA3.html" rel="prev"/>
+{% endblock %}
+{% block body %}
 <div class="book">
-    <div class="book-summary">
-        
-            
+<div class="book-summary">
 <div id="book-search-input" role="search">
-    <input type="text" placeholder="Type to search" />
+<input placeholder="Type to search" type="text"/>
 </div>
-
-            
-                <nav role="navigation">
-                
-
-
+<nav role="navigation">
 <ul class="summary">
-    
-    
-
-    
-
-    
-        
-        
-    
-        <li class="chapter " data-level="1.1" data-path="index.html">
-            
-                <a href="index.html">
+<li class="chapter" data-level="1.1" data-path="index.html">
+<a href="index.html">
             
                     
                     Introduction
             
                 </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.2" data-path="PA0.html">
-            
-                <a href="PA0.html">
+</li>
+<li class="chapter" data-level="1.2" data-path="PA0.html">
+<a href="PA0.html">
             
                     
                     PA0 - 世界诞生的前夜: 开发环境配置
             
                 </a>
-            
-
-            
-            <ul class="articles">
-                
-    
-        <li class="chapter " data-level="1.2.1" data-path="0.1.html">
-            
-                <a href="0.1.html">
+<ul class="articles">
+<li class="chapter" data-level="1.2.1" data-path="0.1.html">
+<a href="0.1.html">
             
                     
                     Installing GNU/Linux
             
                 </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.2.2" data-path="0.2.html">
-            
-                <a href="0.2.html">
+</li>
+<li class="chapter" data-level="1.2.2" data-path="0.2.html">
+<a href="0.2.html">
             
                     
                     First Exploration with GNU/Linux
             
                 </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.2.3" data-path="0.3.html">
-            
-                <a href="0.3.html">
+</li>
+<li class="chapter" data-level="1.2.3" data-path="0.3.html">
+<a href="0.3.html">
             
                     
                     Installing Tools
             
                 </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.2.4" data-path="0.4.html">
-            
-                <a href="0.4.html">
+</li>
+<li class="chapter" data-level="1.2.4" data-path="0.4.html">
+<a href="0.4.html">
             
                     
                     Configuring vim
             
                 </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.2.5" data-path="0.5.html">
-            
-                <a href="0.5.html">
+</li>
+<li class="chapter" data-level="1.2.5" data-path="0.5.html">
+<a href="0.5.html">
             
                     
                     More Exploration
             
                 </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.2.6" data-path="0.6.html">
-            
-                <a href="0.6.html">
+</li>
+<li class="chapter" data-level="1.2.6" data-path="0.6.html">
+<a href="0.6.html">
             
                     
                     Getting Source Code for PAs
             
                 </a>
-            
-
-            
-        </li>
-    
-
-            </ul>
-            
-        </li>
-    
-        <li class="chapter " data-level="1.3" data-path="PA1.html">
-            
-                <a href="PA1.html">
+</li>
+</ul>
+</li>
+<li class="chapter" data-level="1.3" data-path="PA1.html">
+<a href="PA1.html">
             
                     
                     PA1 - 开天辟地的篇章: 最简单的计算机
             
                 </a>
-            
-
-            
-            <ul class="articles">
-                
-    
-        <li class="chapter " data-level="1.3.1" data-path="1.1.html">
-            
-                <a href="1.1.html">
+<ul class="articles">
+<li class="chapter" data-level="1.3.1" data-path="1.1.html">
+<a href="1.1.html">
             
                     
                     在开始愉快的PA之旅之前
             
                 </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.3.2" data-path="1.2.html">
-            
-                <a href="1.2.html">
+</li>
+<li class="chapter" data-level="1.3.2" data-path="1.2.html">
+<a href="1.2.html">
             
                     
                     开天辟地的篇章
             
                 </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.3.3" data-path="1.3.html">
-            
-                <a href="1.3.html">
+</li>
+<li class="chapter" data-level="1.3.3" data-path="1.3.html">
+<a href="1.3.html">
             
                     
                     RTFSC
             
                 </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.3.4" data-path="1.4.html">
-            
-                <a href="1.4.html">
+</li>
+<li class="chapter" data-level="1.3.4" data-path="1.4.html">
+<a href="1.4.html">
             
                     
                     基础设施
             
                 </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.3.5" data-path="1.5.html">
-            
-                <a href="1.5.html">
+</li>
+<li class="chapter" data-level="1.3.5" data-path="1.5.html">
+<a href="1.5.html">
             
                     
                     表达式求值
             
                 </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.3.6" data-path="1.6.html">
-            
-                <a href="1.6.html">
+</li>
+<li class="chapter" data-level="1.3.6" data-path="1.6.html">
+<a href="1.6.html">
             
                     
                     监视点
             
                 </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.3.7" data-path="1.7.html">
-            
-                <a href="1.7.html">
+</li>
+<li class="chapter" data-level="1.3.7" data-path="1.7.html">
+<a href="1.7.html">
             
                     
                     如何阅读手册
             
                 </a>
-            
-
-            
-        </li>
-    
-
-            </ul>
-            
-        </li>
-    
-        <li class="chapter " data-level="1.4" data-path="PA2.html">
-            
-                <a href="PA2.html">
+</li>
+</ul>
+</li>
+<li class="chapter" data-level="1.4" data-path="PA2.html">
+<a href="PA2.html">
             
                     
                     PA2 - 简单复杂的机器: 冯诺依曼计算机系统
             
                 </a>
-            
-
-            
-            <ul class="articles">
-                
-    
-        <li class="chapter " data-level="1.4.1" data-path="2.1.html">
-            
-                <a href="2.1.html">
+<ul class="articles">
+<li class="chapter" data-level="1.4.1" data-path="2.1.html">
+<a href="2.1.html">
             
                     
                     不停计算的机器
             
                 </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.4.2" data-path="2.2.html">
-            
-                <a href="2.2.html">
+</li>
+<li class="chapter" data-level="1.4.2" data-path="2.2.html">
+<a href="2.2.html">
             
                     
                     RTFSC(2)
             
                 </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.4.3" data-path="2.3.html">
-            
-                <a href="2.3.html">
+</li>
+<li class="chapter" data-level="1.4.3" data-path="2.3.html">
+<a href="2.3.html">
             
                     
                     程序, 运行时环境与AM
             
                 </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.4.4" data-path="2.4.html">
-            
-                <a href="2.4.html">
+</li>
+<li class="chapter" data-level="1.4.4" data-path="2.4.html">
+<a href="2.4.html">
             
                     
                     基础设施(2)
             
                 </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.4.5" data-path="2.5.html">
-            
-                <a href="2.5.html">
+</li>
+<li class="chapter" data-level="1.4.5" data-path="2.5.html">
+<a href="2.5.html">
             
                     
                     输入输出
             
                 </a>
-            
-
-            
-        </li>
-    
-
-            </ul>
-            
-        </li>
-    
-        <li class="chapter " data-level="1.5" data-path="PA3.html">
-            
-                <a href="PA3.html">
+</li>
+</ul>
+</li>
+<li class="chapter" data-level="1.5" data-path="PA3.html">
+<a href="PA3.html">
             
                     
                     PA3 - 穿越时空的旅程: 批处理系统
             
                 </a>
-            
-
-            
-            <ul class="articles">
-                
-    
-        <li class="chapter active" data-level="1.5.1" data-path="3.1.html">
-            
-                <a href="3.1.html">
+<ul class="articles">
+<li class="chapter active" data-level="1.5.1" data-path="3.1.html">
+<a href="3.1.html">
             
                     
                     最简单的操作系统
             
                 </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.5.2" data-path="3.2.html">
-            
-                <a href="3.2.html">
+</li>
+<li class="chapter" data-level="1.5.2" data-path="3.2.html">
+<a href="3.2.html">
             
                     
                     穿越时空的旅程
             
                 </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.5.3" data-path="3.3.html">
-            
-                <a href="3.3.html">
+</li>
+<li class="chapter" data-level="1.5.3" data-path="3.3.html">
+<a href="3.3.html">
             
                     
                     用户程序和系统调用
             
                 </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.5.4" data-path="3.4.html">
-            
-                <a href="3.4.html">
+</li>
+<li class="chapter" data-level="1.5.4" data-path="3.4.html">
+<a href="3.4.html">
             
                     
                     文件系统
             
                 </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.5.5" data-path="3.5.html">
-            
-                <a href="3.5.html">
+</li>
+<li class="chapter" data-level="1.5.5" data-path="3.5.html">
+<a href="3.5.html">
             
                     
                     精彩纷呈的应用程序
             
                 </a>
-            
-
-            
-        </li>
-    
-
-            </ul>
-            
-        </li>
-    
-        <li class="chapter " data-level="1.6" data-path="PA4.html">
-            
-                <a href="PA4.html">
+</li>
+</ul>
+</li>
+<li class="chapter" data-level="1.6" data-path="PA4.html">
+<a href="PA4.html">
             
                     
                     PA4 - 虚实交错的魔法: 分时多任务
             
                 </a>
-            
-
-            
-            <ul class="articles">
-                
-    
-        <li class="chapter " data-level="1.6.1" data-path="4.1.html">
-            
-                <a href="4.1.html">
+<ul class="articles">
+<li class="chapter" data-level="1.6.1" data-path="4.1.html">
+<a href="4.1.html">
             
                     
                     多道程序
             
                 </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.6.2" data-path="4.2.html">
-            
-                <a href="4.2.html">
+</li>
+<li class="chapter" data-level="1.6.2" data-path="4.2.html">
+<a href="4.2.html">
             
                     
                     虚实交错的魔法
             
                 </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.6.3" data-path="4.3.html">
-            
-                <a href="4.3.html">
+</li>
+<li class="chapter" data-level="1.6.3" data-path="4.3.html">
+<a href="4.3.html">
             
                     
                     超越容量的界限
             
                 </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.6.4" data-path="4.4.html">
-            
-                <a href="4.4.html">
+</li>
+<li class="chapter" data-level="1.6.4" data-path="4.4.html">
+<a href="4.4.html">
             
                     
                     来自外部的声音
             
                 </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.6.5" data-path="4.5.html">
-            
-                <a href="4.5.html">
+</li>
+<li class="chapter" data-level="1.6.5" data-path="4.5.html">
+<a href="4.5.html">
             
                     
                     编写不朽的传奇
             
                 </a>
-            
-
-            
-        </li>
-    
-
-            </ul>
-            
-        </li>
-    
-        <li class="chapter " data-level="1.7" data-path="blank.html">
-            
-                <a href="blank.html">
+</li>
+</ul>
+</li>
+<li class="chapter" data-level="1.7" data-path="blank.html">
+<a href="blank.html">
             
                     
                     杂项
             
                 </a>
-            
-
-            
-            <ul class="articles">
-                
-    
-        <li class="chapter " data-level="1.7.1" data-path="FAQ.html">
-            
-                <a href="FAQ.html">
+<ul class="articles">
+<li class="chapter" data-level="1.7.1" data-path="FAQ.html">
+<a href="FAQ.html">
             
                     
                     常见问题(FAQ)
             
                 </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.7.2" data-path="why.html">
-            
-                <a href="why.html">
+</li>
+<li class="chapter" data-level="1.7.2" data-path="why.html">
+<a href="why.html">
             
                     
                     为什么要学习计算机系统基础
             
                 </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.7.3" data-path="linux.html">
-            
-                <a href="linux.html">
+</li>
+<li class="chapter" data-level="1.7.3" data-path="linux.html">
+<a href="linux.html">
             
                     
                     Linux入门教程
             
                 </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.7.4" data-path="man.html">
-            
-                <a href="man.html">
+</li>
+<li class="chapter" data-level="1.7.4" data-path="man.html">
+<a href="man.html">
             
                     
                     man入门教程
             
                 </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.7.5" data-path="git.html">
-            
-                <a href="git.html">
+</li>
+<li class="chapter" data-level="1.7.5" data-path="git.html">
+<a href="git.html">
             
                     
                     git入门教程
             
                 </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.7.6" data-path="nemu-isa-api.html">
-            
-                <a href="nemu-isa-api.html">
+</li>
+<li class="chapter" data-level="1.7.6" data-path="nemu-isa-api.html">
+<a href="nemu-isa-api.html">
             
                     
                     NEMU ISA相关API说明文档
             
                 </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.7.7" data-path="changelog.html">
-            
-                <a href="changelog.html">
+</li>
+<li class="chapter" data-level="1.7.7" data-path="changelog.html">
+<a href="changelog.html">
             
                     
                     更新日志
             
                 </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.7.8" data-path="i386-intro.html">
-            
-                <a href="i386-intro.html">
+</li>
+<li class="chapter" data-level="1.7.8" data-path="i386-intro.html">
+<a href="i386-intro.html">
             
                     
                     i386手册指令集阅读指南
             
                 </a>
-            
-
-            
-        </li>
-    
-
-            </ul>
-            
-        </li>
-    
-
-    
-
-    <li class="divider"></li>
-
-    <li>
-        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+</li>
+</ul>
+</li>
+<li class="divider"></li>
+<li>
+<a class="gitbook-link" href="https://www.gitbook.com" target="blank">
             Published with GitBook
         </a>
-    </li>
+</li>
 </ul>
-
-
-                </nav>
-            
-        
-    </div>
-
-    <div class="book-body">
-        
-            <div class="body-inner">
-                
-                    
-
+</nav>
+</div>
+<div class="book-body">
+<div class="body-inner">
 <div class="book-header" role="navigation">
-    
-
-    <!-- Title -->
-    <h1>
-        <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href="." >最简单的操作系统</a>
-    </h1>
+<!-- Title -->
+<h1>
+<i class="fa fa-circle-o-notch fa-spin"></i>
+<a href=".">最简单的操作系统</a>
+</h1>
 </div>
-
-
-
-
-                    <div class="page-wrapper" tabindex="-1" role="main">
-                        <div class="page-inner">
-                            
+<div class="page-wrapper" role="main" tabindex="-1">
+<div class="page-inner">
 <div id="book-search-results">
-    <div class="search-noresults">
-    
-                                <section class="normal markdown-section">
-                                
-                                <div class="panel panel-danger"><div class="panel-heading"><h5 class="panel-title" id="&#x6CA1;&#x6709;&#x8C03;&#x4E0D;&#x51FA;&#x7684;bug-&#x53EA;&#x6709;&#x4E0D;&#x7406;&#x89E3;&#x7684;&#x7CFB;&#x7EDF;"><i class="fa fa-bullhorn"></i> &#x6CA1;&#x6709;&#x8C03;&#x4E0D;&#x51FA;&#x7684;bug, &#x53EA;&#x6709;&#x4E0D;&#x7406;&#x89E3;&#x7684;&#x7CFB;&#x7EDF;</h5></div><div class="panel-body"><p>PA3&#x662F;&#x6574;&#x4E2A;PA&#x7684;&#x5206;&#x6C34;&#x5CAD;, &#x4ECE;PA3&#x5F00;&#x59CB;, &#x7CFB;&#x7EDF;&#x7684;&#x590D;&#x6742;&#x5EA6;&#x5F00;&#x59CB;&#x9010;&#x6E10;&#x4E0A;&#x5347;,
-&#x8D8A;&#x6765;&#x8D8A;&#x591A;&#x7684;&#x62BD;&#x8C61;&#x5C42;&#x5C06;&#x4F1A;&#x52A0;&#x5165;&#x8FDB;&#x6765;, &#x7CFB;&#x7EDF;&#x4E5F;&#x5F00;&#x59CB;&#x9010;&#x6E10;&#x5B8C;&#x5584;, &#x5E94;&#x7528;&#x4E5F;&#x5C06;&#x66F4;&#x52A0;&#x771F;&#x5B9E;.</p><p>&#x8FD9;&#x610F;&#x5473;&#x7740;, bug&#x7684;&#x4F20;&#x64AD;&#x94FE;&#x6761;&#x4F1A;&#x53D8;&#x5F97;&#x66F4;&#x590D;&#x6742;, &#x8C03;&#x8BD5;&#x4E5F;&#x8D8A;&#x6765;&#x8D8A;&#x8003;&#x9A8C;&#x4F60;&#x5BF9;&#x7CFB;&#x7EDF;&#x884C;&#x4E3A;&#x7684;&#x7406;&#x89E3;.
-&#x5982;&#x679C;&#x4F60;&#x4E4B;&#x524D;&#x8C03;bug&#x90FD;&#x662F;&#x62B1;&#x5927;&#x817F;, &#x5E76;&#x6CA1;&#x6709;&#x5728;&#x8C03;&#x8BD5;&#x8FC7;&#x7A0B;&#x4E2D;&#x53BB;&#x7406;&#x89E3;&#x7CFB;&#x7EDF;&#x7684;&#x7EC6;&#x8282;,
-&#x4F60;&#x4F1A;&#x53D1;&#x73B0;&#x5728;PA3&#x4E2D;&#x81EA;&#x5DF1;&#x548C;&#x5927;&#x817F;&#x7684;&#x5DEE;&#x8DDD;&#x6B63;&#x5728;&#x8FC5;&#x901F;&#x6269;&#x5927;:
-&#x5927;&#x817F;&#x5BF9;&#x6574;&#x4E2A;&#x7CFB;&#x7EDF;&#x7684;&#x638C;&#x63E1;&#x8D8A;&#x6765;&#x8D8A;&#x719F;&#x7EC3;, &#x800C;&#x4F60;&#x5219;&#x662F;&#x8D8A;&#x5F80;&#x524D;&#x5C31;&#x8D8A;&#x89C9;&#x5F97;&#x5BF8;&#x6B65;&#x96BE;&#x884C;,
-&#x4F8B;&#x5982;&#x8BB2;&#x4E49;&#x548C;&#x4EE3;&#x7801;&#x8D8A;&#x6765;&#x8D8A;&#x770B;&#x4E0D;&#x61C2;, bug&#x8D8A;&#x6765;&#x8D8A;&#x795E;&#x79D8;.</p><p>&#x4EA1;&#x7F8A;&#x8865;&#x7262;&#x7684;&#x65B9;&#x6CD5;&#x53EA;&#x6709;&#x4E00;&#x4E2A;: &#x771F;&#x7684;&#x4E0D;&#x80FD;&#x518D;&#x5077;&#x61D2;&#x4E86;.</p></div></div>
-<h2 id="&#x6279;&#x5904;&#x7406;&#x7CFB;&#x7EDF;">&#x6279;&#x5904;&#x7406;&#x7CFB;&#x7EDF;</h2>
-<p>&#x6211;&#x4EEC;&#x5728;PA2&#x4E2D;&#x5DF2;&#x7ECF;&#x5B9E;&#x73B0;&#x4E86;&#x4E00;&#x4E2A;&#x51AF;&#x8BFA;&#x4F9D;&#x66FC;&#x8BA1;&#x7B97;&#x673A;&#x7CFB;&#x7EDF;, &#x5E76;&#x4E14;&#x5DF2;&#x7ECF;&#x5728;AM&#x4E0A;&#x628A;&#x6253;&#x5B57;&#x6E38;&#x620F;&#x548C;FCEUX&#x8FD0;&#x884C;&#x8D77;&#x6765;&#x4E86;.
-&#x6709;&#x4E86;IOE, &#x5C31;&#x51E0;&#x4E4E;&#x80FD;&#x628A;&#x5404;&#x79CD;&#x5C0F;&#x6E38;&#x620F;&#x79FB;&#x690D;&#x5230;AM&#x4E0A;&#x6765;&#x8FD0;&#x884C;&#x4E86;.
-&#x8FD9;&#x4E9B;&#x5C0F;&#x6E38;&#x620F;&#x5728;&#x8BA1;&#x7B97;&#x673A;&#x4E0A;&#x7684;&#x8FD0;&#x884C;&#x6A21;&#x5F0F;&#x6709;&#x4E00;&#x4E2A;&#x7279;&#x70B9;, &#x5B83;&#x4EEC;&#x4F1A;&#x72EC;&#x5360;&#x6574;&#x4E2A;&#x8BA1;&#x7B97;&#x673A;&#x7CFB;&#x7EDF;:
-&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x5728;NEMU&#x4E0A;&#x4E00;&#x76F4;&#x73A9;&#x6253;&#x5B57;&#x6E38;&#x620F;, &#x4E0D;&#x60F3;&#x73A9;&#x7684;&#x65F6;&#x5019;,
-&#x6211;&#x4EEC;&#x5C31;&#x4F1A;&#x9000;&#x51FA;NEMU, &#x7136;&#x540E;&#x91CD;&#x65B0;&#x8FD0;&#x884C;FCEUX&#x6765;&#x73A9;.</p>
-<p>&#x4E8B;&#x5B9E;&#x4E0A;, &#x65E9;&#x671F;&#x7684;&#x8BA1;&#x7B97;&#x673A;&#x5C31;&#x662F;&#x8FD9;&#x6837;&#x5DE5;&#x4F5C;&#x7684;:
-&#x7CFB;&#x7EDF;&#x7BA1;&#x7406;&#x5458;&#x7ED9;&#x8BA1;&#x7B97;&#x673A;&#x52A0;&#x8F7D;&#x4E00;&#x4E2A;&#x7279;&#x5B9A;&#x7684;&#x7A0B;&#x5E8F;(&#x5176;&#x5B9E;&#x662F;&#x4E0A;&#x53E4;&#x65F6;&#x671F;&#x7684;&#x6253;&#x5B54;&#x5361;&#x7247;),
-&#x8BA1;&#x7B97;&#x673A;&#x5C31;&#x4F1A;&#x4E00;&#x76F4;&#x6267;&#x884C;&#x8FD9;&#x4E2A;&#x7A0B;&#x5E8F;, &#x76F4;&#x5230;&#x7A0B;&#x5E8F;&#x7ED3;&#x675F;&#x6216;&#x8005;&#x662F;&#x7BA1;&#x7406;&#x5458;&#x624B;&#x52A8;&#x7EC8;&#x6B62;,
-&#x7136;&#x540E;&#x518D;&#x7531;&#x7BA1;&#x7406;&#x5458;&#x6765;&#x624B;&#x52A8;&#x52A0;&#x8F7D;&#x4E0B;&#x4E00;&#x4E2A;&#x7A0B;&#x5E8F;.
-&#x5F53;&#x5E74;&#x7684;&#x7A0B;&#x5E8F;&#x4E5F;&#x8FDC;&#x8FDC;&#x4E0D;&#x5982;&#x4F60;&#x73A9;&#x7684;&#x8D85;&#x7EA7;&#x739B;&#x4E3D;&#x8FD9;&#x4E48;&#x9177;&#x70AB;,
-&#x5927;&#x591A;&#x90FD;&#x662F;&#x4E00;&#x4E9B;&#x79D1;&#x5B66;&#x8BA1;&#x7B97;&#x548C;&#x7269;&#x7406;&#x5EFA;&#x6A21;&#x7684;&#x4EFB;&#x52A1;(&#x6BD4;&#x5982;&#x5F39;&#x9053;&#x8F68;&#x8FF9;&#x8BA1;&#x7B97;).</p>
-<p>&#x540E;&#x6765;&#x4EBA;&#x4EEC;&#x5C31;&#x60F3;, &#x6BCF;&#x6B21;&#x90FD;&#x8981;&#x7BA1;&#x7406;&#x5458;&#x6765;&#x624B;&#x52A8;&#x52A0;&#x8F7D;&#x65B0;&#x7684;&#x7A0B;&#x5E8F;, &#x8FD9;&#x592A;&#x9EBB;&#x70E6;&#x4E86;.
-&#x56DE;&#x60F3;&#x8D77;&#x51AF;&#x8BFA;&#x4F9D;&#x66FC;&#x8BA1;&#x7B97;&#x673A;&#x7684;&#x5DE5;&#x4F5C;&#x65B9;&#x5F0F;, &#x5B83;&#x7684;&#x5176;&#x4E2D;&#x4E00;&#x4E2A;&#x7279;&#x70B9;&#x5C31;&#x662F;:
-&#x5F53;&#x8BA1;&#x7B97;&#x673A;&#x6267;&#x884C;&#x5B8C;&#x4E00;&#x6761;&#x6307;&#x4EE4;&#x7684;&#x65F6;&#x5019;, &#x5C31;&#x81EA;&#x52A8;&#x6267;&#x884C;&#x4E0B;&#x4E00;&#x6761;&#x6307;&#x4EE4;.
-&#x7C7B;&#x4F3C;&#x7684;, &#x6211;&#x4EEC;&#x80FD;&#x4E0D;&#x80FD;&#x8BA9;&#x7BA1;&#x7406;&#x5458;&#x4E8B;&#x5148;&#x51C6;&#x5907;&#x597D;&#x4E00;&#x7EC4;&#x7A0B;&#x5E8F;,
-&#x8BA9;&#x8BA1;&#x7B97;&#x673A;&#x6267;&#x884C;&#x5B8C;&#x4E00;&#x4E2A;&#x7A0B;&#x5E8F;&#x4E4B;&#x540E;, &#x5C31;&#x81EA;&#x52A8;&#x6267;&#x884C;&#x4E0B;&#x4E00;&#x4E2A;&#x7A0B;&#x5E8F;&#x5462;?</p>
-<p>&#x8FD9;&#x5C31;&#x662F;<a href="https://en.wikipedia.org/wiki/Batch_processing" target="_blank">&#x6279;&#x5904;&#x7406;</a>&#x7CFB;&#x7EDF;&#x7684;&#x601D;&#x60F3;, &#x6709;&#x4E86;&#x6279;&#x5904;&#x7406;&#x7CFB;&#x7EDF;&#x4E4B;&#x540E;,
-&#x5C31;&#x53EF;&#x4EE5;&#x89E3;&#x653E;&#x7BA1;&#x7406;&#x5458;&#x7684;&#x53CC;&#x624B;&#x4E86;. &#x800C;&#x6279;&#x5904;&#x7406;&#x7CFB;&#x7EDF;&#x7684;&#x5173;&#x952E;, &#x5C31;&#x662F;&#x8981;&#x6709;&#x4E00;&#x4E2A;&#x540E;&#x53F0;&#x7A0B;&#x5E8F;,
-&#x5F53;&#x4E00;&#x4E2A;&#x524D;&#x53F0;&#x7A0B;&#x5E8F;&#x6267;&#x884C;&#x7ED3;&#x675F;&#x7684;&#x65F6;&#x5019;, &#x540E;&#x53F0;&#x7A0B;&#x5E8F;&#x5C31;&#x4F1A;&#x81EA;&#x52A8;&#x52A0;&#x8F7D;&#x4E00;&#x4E2A;&#x65B0;&#x7684;&#x524D;&#x53F0;&#x7A0B;&#x5E8F;&#x6765;&#x6267;&#x884C;.</p>
-<p>&#x8FD9;&#x6837;&#x7684;&#x4E00;&#x4E2A;&#x540E;&#x53F0;&#x7A0B;&#x5E8F;, &#x5176;&#x5B9E;&#x5C31;&#x662F;&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;.
-&#x5BF9;, &#x4F60;&#x6CA1;&#x6709;&#x542C;&#x9519;, &#x8FD9;&#x4E2A;&#x542C;&#x4E0A;&#x53BB;&#x597D;&#x50CF;&#x4EC0;&#x4E48;&#x90FD;&#x6CA1;&#x505A;&#x7684;&#x540E;&#x53F0;&#x7A0B;&#x5E8F;, &#x771F;&#x7684;&#x662F;&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;!
-&#x8BF4;&#x8D77;&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;, &#x4E5F;&#x8BB8;&#x4F60;&#x4F1A;&#x9A6C;&#x4E0A;&#x60F3;&#x5230;&#x5B89;&#x88C5;&#x5305;&#x90FD;&#x6709;&#x51E0;&#x4E2A;GB&#x7684;Windows.
-&#x4F46;&#x5B9E;&#x9645;&#x4E0A;, &#x5386;&#x53F2;&#x4E0A;&#x6700;&#x65E9;&#x6295;&#x5165;&#x4F7F;&#x7528;&#x7684;&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;<a href="https://en.wikipedia.org/wiki/GM-NAA_I/O" target="_blank">GM-NAA I/O</a>&#x5728;1956&#x5E74;&#x5C31;&#x8BDE;&#x751F;&#x4E86;,
-&#x800C;&#x5B83;&#x7684;&#x4E00;&#x4E2A;&#x4E3B;&#x8981;&#x4EFB;&#x52A1;, &#x5C31;&#x662F;&#x4E0A;&#x6587;&#x63D0;&#x5230;&#x7684;&quot;&#x81EA;&#x52A8;&#x52A0;&#x8F7D;&#x65B0;&#x7A0B;&#x5E8F;&quot;, &#x5177;&#x4F53;&#x53C8;&#x9700;&#x8981;&#x5B9E;&#x73B0;&#x4EE5;&#x4E0B;&#x4E24;&#x70B9;&#x529F;&#x80FD;:</p>
+<div class="search-noresults">
+<section class="normal markdown-section">
+<div class="panel panel-danger"><div class="panel-heading"><h5 class="panel-title" id="没有调不出的bug-只有不理解的系统"><i class="fa fa-bullhorn"></i> 没有调不出的bug, 只有不理解的系统</h5></div><div class="panel-body"><p>PA3是整个PA的分水岭, 从PA3开始, 系统的复杂度开始逐渐上升,
+越来越多的抽象层将会加入进来, 系统也开始逐渐完善, 应用也将更加真实.</p><p>这意味着, bug的传播链条会变得更复杂, 调试也越来越考验你对系统行为的理解.
+如果你之前调bug都是抱大腿, 并没有在调试过程中去理解系统的细节,
+你会发现在PA3中自己和大腿的差距正在迅速扩大:
+大腿对整个系统的掌握越来越熟练, 而你则是越往前就越觉得寸步难行,
+例如讲义和代码越来越看不懂, bug越来越神秘.</p><p>亡羊补牢的方法只有一个: 真的不能再偷懒了.</p></div></div>
+<h2 id="批处理系统">批处理系统</h2>
+<p>我们在PA2中已经实现了一个冯诺依曼计算机系统, 并且已经在AM上把打字游戏和FCEUX运行起来了.
+有了IOE, 就几乎能把各种小游戏移植到AM上来运行了.
+这些小游戏在计算机上的运行模式有一个特点, 它们会独占整个计算机系统:
+我们可以在NEMU上一直玩打字游戏, 不想玩的时候,
+我们就会退出NEMU, 然后重新运行FCEUX来玩.</p>
+<p>事实上, 早期的计算机就是这样工作的:
+系统管理员给计算机加载一个特定的程序(其实是上古时期的打孔卡片),
+计算机就会一直执行这个程序, 直到程序结束或者是管理员手动终止,
+然后再由管理员来手动加载下一个程序.
+当年的程序也远远不如你玩的超级玛丽这么酷炫,
+大多都是一些科学计算和物理建模的任务(比如弹道轨迹计算).</p>
+<p>后来人们就想, 每次都要管理员来手动加载新的程序, 这太麻烦了.
+回想起冯诺依曼计算机的工作方式, 它的其中一个特点就是:
+当计算机执行完一条指令的时候, 就自动执行下一条指令.
+类似的, 我们能不能让管理员事先准备好一组程序,
+让计算机执行完一个程序之后, 就自动执行下一个程序呢?</p>
+<p>这就是<a href="https://en.wikipedia.org/wiki/Batch_processing" target="_blank">批处理</a>系统的思想, 有了批处理系统之后,
+就可以解放管理员的双手了. 而批处理系统的关键, 就是要有一个后台程序,
+当一个前台程序执行结束的时候, 后台程序就会自动加载一个新的前台程序来执行.</p>
+<p>这样的一个后台程序, 其实就是操作系统.
+对, 你没有听错, 这个听上去好像什么都没做的后台程序, 真的是操作系统!
+说起操作系统, 也许你会马上想到安装包都有几个GB的Windows.
+但实际上, 历史上最早投入使用的操作系统<a href="https://en.wikipedia.org/wiki/GM-NAA_I/O" target="_blank">GM-NAA I/O</a>在1956年就诞生了,
+而它的一个主要任务, 就是上文提到的"自动加载新程序", 具体又需要实现以下两点功能:</p>
 <ul>
-<li>&#x7528;&#x6237;&#x7A0B;&#x5E8F;&#x6267;&#x884C;&#x7ED3;&#x675F;&#x4E4B;&#x540E;, &#x53EF;&#x4EE5;&#x8DF3;&#x8F6C;&#x5230;&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#x7684;&#x4EE3;&#x7801;&#x7EE7;&#x7EED;&#x6267;&#x884C;</li>
-<li>&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#x53EF;&#x4EE5;&#x52A0;&#x8F7D;&#x4E00;&#x4E2A;&#x65B0;&#x7684;&#x7528;&#x6237;&#x7A0B;&#x5E8F;&#x6765;&#x6267;&#x884C;</li>
+<li>用户程序执行结束之后, 可以跳转到操作系统的代码继续执行</li>
+<li>操作系统可以加载一个新的用户程序来执行</li>
 </ul>
-<div class="panel panel-info"><div class="panel-heading"><h5 class="panel-title" id="&#x4EC0;&#x4E48;&#x662F;&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;-&#x5EFA;&#x8BAE;&#x4E8C;&#x5468;&#x76EE;&#x601D;&#x8003;"><i class="fa fa-question-circle"></i> &#x4EC0;&#x4E48;&#x662F;&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;? (&#x5EFA;&#x8BAE;&#x4E8C;&#x5468;&#x76EE;&#x601D;&#x8003;)</h5></div><div class="panel-body"><p>&#x8FD9;&#x53EF;&#x662F;&#x4E2A;&#x5927;&#x95EE;&#x9898;, &#x6211;&#x4EEC;&#x4E5F;&#x9F13;&#x52B1;&#x4F60;&#x5B66;&#x4E60;&#x5B8C;&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#x8BFE;&#x7A0B;&#x4E4B;&#x540E;&#x518D;&#x56DE;&#x6765;&#x91CD;&#x65B0;&#x5BA1;&#x89C6;&#x5B83;.</p></div></div>
-<h3 id="&#x6765;&#x81EA;&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#x7684;&#x65B0;&#x9700;&#x6C42;">&#x6765;&#x81EA;&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#x7684;&#x65B0;&#x9700;&#x6C42;</h3>
-<p>&#x4ED4;&#x7EC6;&#x601D;&#x8003;, &#x6211;&#x4EEC;&#x5C31;&#x4F1A;&#x53D1;&#x73B0;, &#x4E0A;&#x8FF0;&#x4E24;&#x70B9;&#x529F;&#x80FD;&#x4E2D;&#x5176;&#x5B9E;&#x8574;&#x542B;&#x7740;&#x4E00;&#x4E2A;&#x65B0;&#x7684;&#x9700;&#x6C42;: &#x7A0B;&#x5E8F;&#x4E4B;&#x95F4;&#x7684;&#x6267;&#x884C;&#x6D41;&#x5207;&#x6362;.
-&#x6211;&#x4EEC;&#x77E5;&#x9053;&#x51FD;&#x6570;&#x8C03;&#x7528;&#x4E00;&#x822C;&#x662F;&#x5728;&#x4E00;&#x4E2A;&#x7A0B;&#x5E8F;&#x5185;&#x90E8;&#x53D1;&#x751F;&#x7684;(&#x52A8;&#x6001;&#x94FE;&#x63A5;&#x5E93;&#x9664;&#x5916;),
-&#x5C5E;&#x4E8E;&#x7A0B;&#x5E8F;&#x5185;&#x90E8;&#x7684;&#x6267;&#x884C;&#x6D41;&#x5207;&#x6362;, &#x4F7F;&#x7528;call/jal&#x6307;&#x4EE4;&#x5373;&#x53EF;&#x5B9E;&#x73B0;.
-&#x800C;&#x4E0A;&#x8FF0;&#x4E24;&#x70B9;&#x9700;&#x6C42;&#x9700;&#x8981;&#x5728;&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#x548C;&#x7528;&#x6237;&#x7A0B;&#x5E8F;&#x4E4B;&#x95F4;&#x8FDB;&#x884C;&#x6267;&#x884C;&#x6D41;&#x7684;&#x5207;&#x6362;.
-&#x4E0D;&#x8FC7;, &#x6267;&#x884C;&#x6D41;&#x5207;&#x6362;&#x7684;&#x672C;&#x8D28;, &#x4E5F;&#x53EA;&#x662F;&#x628A;PC&#x4ECE;&#x4E00;&#x4E2A;&#x503C;&#x4FEE;&#x6539;&#x6210;&#x53E6;&#x4E00;&#x4E2A;&#x503C;&#x800C;&#x5DF2;(&#x9ED1;&#x5BA2;&#x773C;&#x4E2D;&#x5C31;&#x662F;&#x8FD9;&#x4E48;&#x7406;&#x89E3;&#x7684;).
-&#x90A3;&#x4E48;, &#x6211;&#x4EEC;&#x80FD;&#x5426;&#x4E5F;&#x4F7F;&#x7528;call/jal&#x6307;&#x4EE4;&#x6765;&#x5B9E;&#x73B0;&#x7A0B;&#x5E8F;&#x4E4B;&#x95F4;&#x7684;&#x6267;&#x884C;&#x6D41;&#x5207;&#x6362;&#x5462;?</p>
-<p>&#x4E5F;&#x8BB8;&#x5728;GM-NAA I/O&#x8BDE;&#x751F;&#x7684;&#x90A3;&#x4E2A;&#x5E74;&#x4EE3;, &#x5927;&#x5BB6;&#x8BF4;&#x4E0D;&#x5B9A;&#x8FD8;&#x771F;&#x662F;&#x8FD9;&#x6837;&#x505A;&#x7684;:
-&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#x5C31;&#x662F;&#x4E00;&#x4E2A;&#x5E93;&#x51FD;&#x6570;, &#x7528;&#x6237;&#x7A0B;&#x5E8F;&#x9000;&#x51FA;&#x7684;&#x65F6;&#x5019;,
-&#x8C03;&#x7528;&#x4E00;&#x4E0B;&#x8FD9;&#x4E2A;&#x7279;&#x6B8A;&#x7684;&#x5E93;&#x51FD;&#x6570;&#x5C31;&#x53EF;&#x4EE5;&#x4E86;, &#x5C31;&#x50CF;&#x6211;&#x4EEC;&#x5728;AM&#x7684;&#x7A0B;&#x5E8F;&#x4E2D;&#x8C03;&#x7528;<code>halt()</code>&#x4E00;&#x6837;.
-&#x4E0D;&#x8FC7;, &#x540E;&#x6765;&#x4EBA;&#x4EEC;&#x9010;&#x6E10;&#x8BA4;&#x8BC6;&#x5230;, &#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#x548C;&#x5176;&#x5B83;&#x7528;&#x6237;&#x7A0B;&#x5E8F;&#x8FD8;&#x662F;&#x4E0D;&#x592A;&#x4E00;&#x6837;&#x7684;:
-&#x4E00;&#x4E2A;&#x7528;&#x6237;&#x7A0B;&#x5E8F;&#x51FA;&#x9519;&#x4E86;, &#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#x53EF;&#x4EE5;&#x8FD0;&#x884C;&#x4E0B;&#x4E00;&#x4E2A;&#x7528;&#x6237;&#x7A0B;&#x5E8F;;
-&#x4F46;&#x5982;&#x679C;&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#x5D29;&#x6E83;&#x4E86;, &#x6574;&#x4E2A;&#x8BA1;&#x7B97;&#x673A;&#x7CFB;&#x7EDF;&#x90FD;&#x5C06;&#x65E0;&#x6CD5;&#x5DE5;&#x4F5C;.
-&#x6240;&#x4EE5;, &#x4EBA;&#x4EEC;&#x8FD8;&#x662F;&#x5E0C;&#x671B;&#x80FD;&#x628A;&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#x4FDD;&#x62A4;&#x8D77;&#x6765;, &#x5C3D;&#x91CF;&#x4FDD;&#x8BC1;&#x5B83;&#x53EF;&#x4EE5;&#x6B63;&#x786E;&#x5DE5;&#x4F5C;.</p>
-<p>&#x5728;&#x8FD9;&#x4E2A;&#x9700;&#x6C42;&#x9762;&#x524D;, &#x7528;call/jal&#x6307;&#x4EE4;&#x6765;&#x8FDB;&#x884C;&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#x548C;&#x7528;&#x6237;&#x8FDB;&#x7A0B;&#x4E4B;&#x95F4;&#x7684;&#x5207;&#x6362;&#x5C31;&#x663E;&#x5F97;&#x592A;&#x968F;&#x610F;&#x4E86;.
-&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#x7684;&#x672C;&#x8D28;&#x4E5F;&#x662F;&#x4E00;&#x4E2A;&#x7A0B;&#x5E8F;, &#x4E5F;&#x662F;&#x7531;&#x51FD;&#x6570;&#x6784;&#x6210;&#x7684;, &#x4F46;&#x65E0;&#x8BBA;&#x7528;&#x6237;&#x7A0B;&#x5E8F;&#x662F;&#x65E0;&#x610F;&#x8FD8;&#x662F;&#x6709;&#x5FC3;,
-&#x6211;&#x4EEC;&#x90FD;&#x4E0D;&#x5E0C;&#x671B;&#x5B83;&#x53EF;&#x4EE5;&#x628A;&#x6267;&#x884C;&#x6D41;&#x5207;&#x6362;&#x5230;&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#x4E2D;&#x7684;&#x4EFB;&#x610F;&#x51FD;&#x6570;.
-&#x6211;&#x4EEC;&#x6240;&#x5E0C;&#x671B;&#x7684;, &#x662F;&#x4E00;&#x79CD;&#x53EF;&#x4EE5;&#x9650;&#x5236;&#x5165;&#x53E3;&#x7684;&#x6267;&#x884C;&#x6D41;&#x5207;&#x6362;&#x65B9;&#x5F0F;,
-&#x663E;&#x7136;, &#x8FD9;&#x79CD;&#x65B9;&#x5F0F;&#x662F;&#x65E0;&#x6CD5;&#x901A;&#x8FC7;&#x7A0B;&#x5E8F;&#x4EE3;&#x7801;&#x6765;&#x5B9E;&#x73B0;&#x7684;.</p>
-<h3 id="&#x7B49;&#x7EA7;&#x68EE;&#x4E25;&#x7684;&#x5236;&#x5EA6;">&#x7B49;&#x7EA7;&#x68EE;&#x4E25;&#x7684;&#x5236;&#x5EA6;</h3>
-<p>&#x4E3A;&#x4E86;&#x963B;&#x6B62;&#x7A0B;&#x5E8F;&#x5C06;&#x6267;&#x884C;&#x6D41;&#x5207;&#x6362;&#x5230;&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#x7684;&#x4EFB;&#x610F;&#x4F4D;&#x7F6E;, &#x786C;&#x4EF6;&#x4E2D;&#x9010;&#x6E10;&#x51FA;&#x73B0;&#x4FDD;&#x62A4;&#x673A;&#x5236;&#x76F8;&#x5173;&#x7684;&#x529F;&#x80FD;,
-&#x6BD4;&#x5982;i386&#x4E2D;&#x5F15;&#x5165;&#x4E86;&#x4FDD;&#x62A4;&#x6A21;&#x5F0F;(protected mode)&#x548C;&#x7279;&#x6743;&#x7EA7;(privilege level)&#x7684;&#x6982;&#x5FF5;,
-&#x800C;mips32&#x5904;&#x7406;&#x5668;&#x53EF;&#x4EE5;&#x8FD0;&#x884C;&#x5728;&#x5185;&#x6838;&#x6A21;&#x5F0F;&#x548C;&#x7528;&#x6237;&#x6A21;&#x5F0F;,
-riscv32&#x5219;&#x6709;&#x673A;&#x5668;&#x6A21;&#x5F0F;(M-mode), &#x76D1;&#x63A7;&#x8005;&#x6A21;&#x5F0F;(S-mode)&#x548C;&#x7528;&#x6237;&#x6A21;&#x5F0F;(U-mode).
-&#x8FD9;&#x4E9B;&#x6982;&#x5FF5;&#x7684;&#x601D;&#x60F3;&#x90FD;&#x662F;&#x7C7B;&#x4F3C;&#x7684;: &#x7B80;&#x5355;&#x5730;&#x8BF4;,
-&#x53EA;&#x6709;&#x9AD8;&#x7279;&#x6743;&#x7EA7;&#x7684;&#x7A0B;&#x5E8F;&#x624D;&#x80FD;&#x53BB;&#x6267;&#x884C;&#x4E00;&#x4E9B;&#x7CFB;&#x7EDF;&#x7EA7;&#x522B;&#x7684;&#x64CD;&#x4F5C;,
-&#x5982;&#x679C;&#x4E00;&#x4E2A;&#x7279;&#x6743;&#x7EA7;&#x4F4E;&#x7684;&#x7A0B;&#x5E8F;&#x5C1D;&#x8BD5;&#x6267;&#x884C;&#x5B83;&#x6CA1;&#x6709;&#x6743;&#x9650;&#x6267;&#x884C;&#x7684;&#x64CD;&#x4F5C;,
-CPU&#x5C06;&#x4F1A;&#x629B;&#x51FA;&#x4E00;&#x4E2A;&#x5F02;&#x5E38;&#x4FE1;&#x53F7;, &#x6765;&#x963B;&#x6B62;&#x8FD9;&#x4E00;&#x975E;&#x6CD5;&#x884C;&#x4E3A;&#x7684;&#x53D1;&#x751F;.
-&#x4E00;&#x822C;&#x6765;&#x8BF4;, &#x6700;&#x9002;&#x5408;&#x62C5;&#x4EFB;&#x7CFB;&#x7EDF;&#x7BA1;&#x7406;&#x5458;&#x7684;&#x89D2;&#x8272;&#x5C31;&#x662F;&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#x4E86;, &#x5B83;&#x62E5;&#x6709;&#x6700;&#x9AD8;&#x7684;&#x7279;&#x6743;&#x7EA7;, &#x53EF;&#x4EE5;&#x6267;&#x884C;&#x6240;&#x6709;&#x64CD;&#x4F5C;;
-&#x800C;&#x9664;&#x975E;&#x7ECF;&#x8FC7;&#x5141;&#x8BB8;, &#x8FD0;&#x884C;&#x5728;&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#x4E0A;&#x7684;&#x7528;&#x6237;&#x7A0B;&#x5E8F;&#x4E00;&#x822C;&#x90FD;&#x5904;&#x4E8E;&#x6700;&#x4F4E;&#x7684;&#x7279;&#x6743;&#x7EA7;,
-&#x5982;&#x679C;&#x5B83;&#x8BD5;&#x56FE;&#x7834;&#x574F;&#x793E;&#x4F1A;&#x7684;&#x548C;&#x8C10;, &#x5B83;&#x5C06;&#x4F1A;&#x88AB;&#x5224;&quot;&#x6B7B;&#x5211;&quot;.</p>
-<p>&#x4EE5;&#x652F;&#x6301;&#x73B0;&#x4EE3;&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#x7684;RISC-V&#x5904;&#x7406;&#x5668;&#x4E3A;&#x4F8B;, &#x5B83;&#x4EEC;&#x5B58;&#x5728;M, S, U&#x4E09;&#x4E2A;&#x7279;&#x6743;&#x6A21;&#x5F0F;,
-&#x5206;&#x522B;&#x4EE3;&#x8868;&#x673A;&#x5668;&#x6A21;&#x5F0F;, &#x76D1;&#x7BA1;&#x8005;&#x6A21;&#x5F0F;&#x548C;&#x7528;&#x6237;&#x6A21;&#x5F0F;.
-M&#x6A21;&#x5F0F;&#x7279;&#x6743;&#x7EA7;&#x6700;&#x9AD8;, U&#x6A21;&#x5F0F;&#x7279;&#x6743;&#x7EA7;&#x6700;&#x4F4E;, &#x4F4E;&#x7279;&#x6743;&#x7EA7;&#x80FD;&#x8BBF;&#x95EE;&#x7684;&#x8D44;&#x6E90;, &#x9AD8;&#x7279;&#x6743;&#x7EA7;&#x4E5F;&#x80FD;&#x8BBF;&#x95EE;.
-&#x90A3;CPU&#x662F;&#x600E;&#x4E48;&#x5224;&#x65AD;&#x4E00;&#x4E2A;&#x8FDB;&#x7A0B;&#x662F;&#x5426;&#x6267;&#x884C;&#x4E86;&#x65E0;&#x6743;&#x9650;&#x64CD;&#x4F5C;&#x5462;?
-&#x7B54;&#x6848;&#x5F88;&#x7B80;&#x5355;, &#x53EA;&#x8981;&#x5728;&#x786C;&#x4EF6;&#x4E0A;&#x7EF4;&#x62A4;&#x4E00;&#x4E2A;&#x7528;&#x4E8E;&#x6807;&#x8BC6;&#x5F53;&#x524D;&#x7279;&#x6743;&#x6A21;&#x5F0F;&#x7684;&#x5BC4;&#x5B58;&#x5668;(&#x5C5E;&#x4E8E;&#x8BA1;&#x7B97;&#x673A;&#x72B6;&#x6001;&#x7684;&#x4E00;&#x90E8;&#x5206;),
-&#x7136;&#x540E;&#x5728;&#x8BBF;&#x95EE;&#x90A3;&#x4E9B;&#x9AD8;&#x7279;&#x6743;&#x7EA7;&#x624D;&#x80FD;&#x8BBF;&#x95EE;&#x7684;&#x8D44;&#x6E90;&#x65F6;, &#x5BF9;&#x5F53;&#x524D;&#x7279;&#x6743;&#x6A21;&#x5F0F;&#x8FDB;&#x884C;&#x68C0;&#x67E5;.
-&#x4F8B;&#x5982;RISC-V&#x4E2D;&#x6709;&#x4E00;&#x6761;&#x7279;&#x6743;&#x6307;&#x4EE4;<code>sfence.vma</code>, &#x624B;&#x518C;&#x8981;&#x6C42;&#x53EA;&#x6709;&#x5F53;&#x5904;&#x7406;&#x5668;&#x5F53;&#x524D;&#x7684;&#x7279;&#x6743;&#x6A21;&#x5F0F;&#x4E0D;&#x4F4E;&#x4E8E;S&#x6A21;&#x5F0F;&#x624D;&#x80FD;&#x6267;&#x884C;,
-&#x56E0;&#x6B64;&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x5728;&#x786C;&#x4EF6;&#x4E0A;&#x6DFB;&#x52A0;&#x4E00;&#x4E9B;&#x7B80;&#x5355;&#x7684;&#x903B;&#x8F91;&#x6765;&#x5B9E;&#x73B0;&#x7279;&#x6743;&#x6A21;&#x5F0F;&#x7684;&#x68C0;&#x67E5;:</p>
+<div class="panel panel-info"><div class="panel-heading"><h5 class="panel-title" id="什么是操作系统-建议二周目思考"><i class="fa fa-question-circle"></i> 什么是操作系统? (建议二周目思考)</h5></div><div class="panel-body"><p>这可是个大问题, 我们也鼓励你学习完操作系统课程之后再回来重新审视它.</p></div></div>
+<h3 id="来自操作系统的新需求">来自操作系统的新需求</h3>
+<p>仔细思考, 我们就会发现, 上述两点功能中其实蕴含着一个新的需求: 程序之间的执行流切换.
+我们知道函数调用一般是在一个程序内部发生的(动态链接库除外),
+属于程序内部的执行流切换, 使用call/jal指令即可实现.
+而上述两点需求需要在操作系统和用户程序之间进行执行流的切换.
+不过, 执行流切换的本质, 也只是把PC从一个值修改成另一个值而已(黑客眼中就是这么理解的).
+那么, 我们能否也使用call/jal指令来实现程序之间的执行流切换呢?</p>
+<p>也许在GM-NAA I/O诞生的那个年代, 大家说不定还真是这样做的:
+操作系统就是一个库函数, 用户程序退出的时候,
+调用一下这个特殊的库函数就可以了, 就像我们在AM的程序中调用<code>halt()</code>一样.
+不过, 后来人们逐渐认识到, 操作系统和其它用户程序还是不太一样的:
+一个用户程序出错了, 操作系统可以运行下一个用户程序;
+但如果操作系统崩溃了, 整个计算机系统都将无法工作.
+所以, 人们还是希望能把操作系统保护起来, 尽量保证它可以正确工作.</p>
+<p>在这个需求面前, 用call/jal指令来进行操作系统和用户进程之间的切换就显得太随意了.
+操作系统的本质也是一个程序, 也是由函数构成的, 但无论用户程序是无意还是有心,
+我们都不希望它可以把执行流切换到操作系统中的任意函数.
+我们所希望的, 是一种可以限制入口的执行流切换方式,
+显然, 这种方式是无法通过程序代码来实现的.</p>
+<h3 id="等级森严的制度">等级森严的制度</h3>
+<p>为了阻止程序将执行流切换到操作系统的任意位置, 硬件中逐渐出现保护机制相关的功能,
+比如i386中引入了保护模式(protected mode)和特权级(privilege level)的概念,
+而mips32处理器可以运行在内核模式和用户模式,
+riscv32则有机器模式(M-mode), 监控者模式(S-mode)和用户模式(U-mode).
+这些概念的思想都是类似的: 简单地说,
+只有高特权级的程序才能去执行一些系统级别的操作,
+如果一个特权级低的程序尝试执行它没有权限执行的操作,
+CPU将会抛出一个异常信号, 来阻止这一非法行为的发生.
+一般来说, 最适合担任系统管理员的角色就是操作系统了, 它拥有最高的特权级, 可以执行所有操作;
+而除非经过允许, 运行在操作系统上的用户程序一般都处于最低的特权级,
+如果它试图破坏社会的和谐, 它将会被判"死刑".</p>
+<p>以支持现代操作系统的RISC-V处理器为例, 它们存在M, S, U三个特权模式,
+分别代表机器模式, 监管者模式和用户模式.
+M模式特权级最高, U模式特权级最低, 低特权级能访问的资源, 高特权级也能访问.
+那CPU是怎么判断一个进程是否执行了无权限操作呢?
+答案很简单, 只要在硬件上维护一个用于标识当前特权模式的寄存器(属于计算机状态的一部分),
+然后在访问那些高特权级才能访问的资源时, 对当前特权模式进行检查.
+例如RISC-V中有一条特权指令<code>sfence.vma</code>, 手册要求只有当处理器当前的特权模式不低于S模式才能执行,
+因此我们可以在硬件上添加一些简单的逻辑来实现特权模式的检查:</p>
 <pre><code>is_sfence_vma_ok = (priv_mode == M_MODE) || (priv_mode == S_MODE);
-</code></pre><p>&#x53EF;&#x4EE5;&#x770B;&#x5230;, &#x7279;&#x6743;&#x6A21;&#x5F0F;&#x7684;&#x68C0;&#x67E5;&#x53EA;&#x4E0D;&#x8FC7;&#x662F;&#x4E00;&#x4E9B;&#x95E8;&#x7535;&#x8DEF;&#x800C;&#x5DF2;.
-&#x5982;&#x679C;&#x68C0;&#x67E5;&#x4E0D;&#x901A;&#x8FC7;, &#x6B64;&#x6B21;&#x64CD;&#x4F5C;&#x5C06;&#x4F1A;&#x88AB;&#x5224;&#x5B9A;&#x4E3A;&#x975E;&#x6CD5;&#x64CD;&#x4F5C;,
-CPU&#x5C06;&#x4F1A;&#x629B;&#x51FA;&#x5F02;&#x5E38;&#x4FE1;&#x53F7;, &#x5E76;&#x8DF3;&#x8F6C;&#x5230;&#x4E00;&#x4E2A;&#x548C;&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#x7EA6;&#x5B9A;&#x597D;&#x7684;&#x5185;&#x5B58;&#x4F4D;&#x7F6E;, &#x4EA4;&#x7531;&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#x8FDB;&#x884C;&#x540E;&#x7EED;&#x5904;&#x7406;.</p>
-<p>&#x901A;&#x5E38;&#x6765;&#x8BF4;, &#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#x8FD0;&#x884C;&#x5728;S&#x6A21;&#x5F0F;, &#x56E0;&#x6B64;&#x6709;&#x6743;&#x9650;&#x8BBF;&#x95EE;&#x6240;&#x6709;&#x7684;&#x4EE3;&#x7801;&#x548C;&#x6570;&#x636E;;
-&#x800C;&#x4E00;&#x822C;&#x7684;&#x7A0B;&#x5E8F;&#x8FD0;&#x884C;&#x5728;U&#x6A21;&#x5F0F;, &#x8FD9;&#x5C31;&#x51B3;&#x5B9A;&#x4E86;&#x5B83;&#x53EA;&#x80FD;&#x8BBF;&#x95EE;U&#x6A21;&#x5F0F;&#x7684;&#x4EE3;&#x7801;&#x548C;&#x6570;&#x636E;.
-&#x8FD9;&#x6837;, &#x53EA;&#x8981;&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#x5C06;&#x5176;&#x79C1;&#x6709;&#x4EE3;&#x7801;&#x548C;&#x6570;&#x636E;&#x653E;S&#x6A21;&#x5F0F;&#x4E2D;, &#x6076;&#x610F;&#x7A0B;&#x5E8F;&#x5C31;&#x6C38;&#x8FDC;&#x6CA1;&#x6709;&#x529E;&#x6CD5;&#x8BBF;&#x95EE;&#x5230;&#x5B83;&#x4EEC;.</p>
-<p>&#x7C7B;&#x4F3C;&#x5730;, x86&#x7684;&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#x8FD0;&#x884C;&#x5728;ring 0, &#x7528;&#x6237;&#x8FDB;&#x7A0B;&#x8FD0;&#x884C;&#x5728;ring 3;
-mips32&#x7684;&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#x8FD0;&#x884C;&#x5728;&#x5185;&#x6838;&#x6A21;&#x5F0F;, &#x7528;&#x6237;&#x8FDB;&#x7A0B;&#x8FD0;&#x884C;&#x5728;&#x7528;&#x6237;&#x6A21;&#x5F0F;.
-&#x8FD9;&#x4E9B;&#x4FDD;&#x62A4;&#x76F8;&#x5173;&#x7684;&#x6982;&#x5FF5;&#x548C;&#x68C0;&#x67E5;&#x8FC7;&#x7A0B;&#x90FD;&#x662F;&#x901A;&#x8FC7;&#x786C;&#x4EF6;&#x5B9E;&#x73B0;&#x7684;,
-&#x53EA;&#x8981;&#x8F6F;&#x4EF6;&#x8FD0;&#x884C;&#x5728;&#x786C;&#x4EF6;&#x4E0A;&#x9762;, &#x90FD;&#x65E0;&#x6CD5;&#x9003;&#x51FA;&#x8FD9;&#x4E00;&#x5929;&#x7F51;.
-&#x786C;&#x4EF6;&#x4FDD;&#x62A4;&#x673A;&#x5236;&#x4F7F;&#x5F97;&#x6076;&#x610F;&#x7A0B;&#x5E8F;&#x6C38;&#x8FDC;&#x65E0;&#x6CD5;&#x5168;&#x8EAB;&#x800C;&#x9000;, &#x4E3A;&#x6784;&#x5EFA;&#x8BA1;&#x7B97;&#x673A;&#x548C;&#x8C10;&#x793E;&#x4F1A;&#x4F5C;&#x51FA;&#x4E86;&#x5DE8;&#x5927;&#x7684;&#x8D21;&#x732E;.</p>
-<p>&#x8FD9;&#x662F;&#x591A;&#x7F8E;&#x5999;&#x7684;&#x529F;&#x80FD;! &#x9057;&#x61BE;&#x7684;&#x662F;, &#x4E0A;&#x9762;&#x63D0;&#x5230;&#x7684;&#x5F88;&#x591A;&#x6982;&#x5FF5;&#x5176;&#x5B9E;&#x53EA;&#x662F;&#x4E00;&#x5E26;&#x800C;&#x8FC7;,
-&#x771F;&#x6B63;&#x7684;&#x4FDD;&#x62A4;&#x673A;&#x5236;&#x4E5F;&#x8FD8;&#x9700;&#x8981;&#x8003;&#x8651;&#x66F4;&#x591A;&#x7684;&#x7EC6;&#x8282;.
-ISA&#x624B;&#x518C;&#x4E2D;&#x4E00;&#x822C;&#x90FD;&#x4F1A;&#x4E13;&#x95E8;&#x6709;&#x4E00;&#x7AE0;&#x6765;&#x63CF;&#x8FF0;&#x4FDD;&#x62A4;&#x673A;&#x5236;, &#x8FD9;&#x5C31;&#x5DF2;&#x7ECF;&#x770B;&#x51FA;&#x6765;&#x4FDD;&#x62A4;&#x673A;&#x5236;&#x5E76;&#x4E0D;&#x662F;&#x7B80;&#x5355;&#x8BF4;&#x8BF4;&#x800C;&#x5DF2;.
-&#x6839;&#x636E;KISS&#x6CD5;&#x5219;, &#x6211;&#x4EEC;&#x5E76;&#x4E0D;&#x6253;&#x7B97;&#x5728;NEMU&#x4E2D;&#x52A0;&#x5165;&#x4FDD;&#x62A4;&#x673A;&#x5236;.
-&#x6211;&#x4EEC;&#x8BA9;&#x6240;&#x6709;&#x7528;&#x6237;&#x8FDB;&#x7A0B;&#x90FD;&#x8FD0;&#x884C;&#x5728;&#x6700;&#x9AD8;&#x7279;&#x6743;&#x7EA7;, &#x867D;&#x7136;&#x6240;&#x6709;&#x7528;&#x6237;&#x8FDB;&#x7A0B;&#x90FD;&#x6709;&#x6743;&#x9650;&#x6267;&#x884C;&#x6240;&#x6709;&#x6307;&#x4EE4;,
-&#x4E0D;&#x8FC7;&#x7531;&#x4E8E;PA&#x4E2D;&#x7684;&#x7528;&#x6237;&#x7A0B;&#x5E8F;&#x90FD;&#x662F;&#x6211;&#x4EEC;&#x81EA;&#x5DF1;&#x7F16;&#x5199;&#x7684;, &#x4E00;&#x5207;&#x8FD8;&#x662F;&#x5728;&#x6211;&#x4EEC;&#x7684;&#x63A7;&#x5236;&#x8303;&#x56F4;&#x4E4B;&#x5185;.
-&#x6BD5;&#x7ADF;, &#x6211;&#x4EEC;&#x4E5F;&#x5DF2;&#x7ECF;&#x4ECE;&#x4E0A;&#x9762;&#x7684;&#x6545;&#x4E8B;&#x4E2D;&#x4F53;&#x4F1A;&#x5230;&#x4FDD;&#x62A4;&#x673A;&#x5236;&#x7684;&#x672C;&#x8D28;&#x4E86;:
-&#x5728;&#x786C;&#x4EF6;&#x4E2D;&#x52A0;&#x5165;&#x4E00;&#x4E9B;&#x4E0E;&#x7279;&#x6743;&#x7EA7;&#x68C0;&#x67E5;&#x76F8;&#x5173;&#x7684;&#x95E8;&#x7535;&#x8DEF;(&#x4F8B;&#x5982;&#x6BD4;&#x8F83;&#x5668;&#x7535;&#x8DEF;), &#x5982;&#x679C;&#x53D1;&#x73B0;&#x4E86;&#x975E;&#x6CD5;&#x64CD;&#x4F5C;,
-&#x5C31;&#x4F1A;&#x629B;&#x51FA;&#x4E00;&#x4E2A;&#x5F02;&#x5E38;&#x4FE1;&#x53F7;, &#x8BA9;CPU&#x8DF3;&#x8F6C;&#x5230;&#x4E00;&#x4E2A;&#x7EA6;&#x5B9A;&#x597D;&#x7684;&#x76EE;&#x6807;&#x4F4D;&#x7F6E;, &#x5E76;&#x8FDB;&#x884C;&#x540E;&#x7EED;&#x5904;&#x7406;.</p>
-<div class="panel panel-info"><div class="panel-heading"><h5 class="panel-title" id="&#x5206;&#x5D29;&#x79BB;&#x6790;&#x7684;&#x79E9;&#x5E8F;"><i class="fa fa-comment-o"></i> &#x5206;&#x5D29;&#x79BB;&#x6790;&#x7684;&#x79E9;&#x5E8F;</h5></div><div class="panel-body"><p>&#x7279;&#x6743;&#x7EA7;&#x4FDD;&#x62A4;&#x662F;&#x73B0;&#x4EE3;&#x8BA1;&#x7B97;&#x673A;&#x7CFB;&#x7EDF;&#x7684;&#x4E00;&#x4E2A;&#x6838;&#x5FC3;&#x673A;&#x5236;, &#x4F46;&#x5E76;&#x4E0D;&#x662F;&#x6709;&#x4E86;&#x8FD9;&#x4E00;&#x7B49;&#x7EA7;&#x68EE;&#x4E25;&#x7684;&#x5236;&#x5EA6;&#x5C31;&#x9AD8;&#x6795;&#x65E0;&#x5FE7;&#x4E86;,
-&#x9ED1;&#x5BA2;&#x4EEC;&#x603B;&#x662F;&#x4F1A;&#x7EDE;&#x5C3D;&#x8111;&#x6C41;&#x53BB;&#x8BD5;&#x63A2;&#x8FD9;&#x4E00;&#x5236;&#x5EA6;&#x7684;&#x8FB9;&#x754C;.
-&#x6700;&#x8FD1;&#x5E2D;&#x5377;&#x8BA1;&#x7B97;&#x673A;&#x9886;&#x57DF;&#x7684;, &#x5C31;&#x8981;&#x6570;2018&#x5E74;1&#x6708;&#x7206;&#x51FA;&#x7684;<a href="https://meltdownattack.com/" target="_blank">Meltdown&#x548C;Spectre</a>&#x8FD9;&#x4E24;&#x4E2A;&#x5927;&#x540D;&#x9F0E;&#x9F0E;&#x7684;&#x786C;&#x4EF6;&#x6F0F;&#x6D1E;&#x4E86;.
-&#x8FD9;&#x4E24;&#x4E2A;&#x53F2;&#x8BD7;&#x7EA7;&#x522B;&#x7684;&#x6F0F;&#x6D1E;&#x4E4B;&#x6240;&#x4EE5;&#x9707;&#x60CA;&#x5168;&#x4E16;&#x754C;, &#x662F;&#x56E0;&#x4E3A;&#x5B83;&#x4EEC;&#x6253;&#x7834;&#x4E86;&#x7279;&#x6743;&#x7EA7;&#x7684;&#x8FB9;&#x754C;:
-&#x6076;&#x610F;&#x7A0B;&#x5E8F;&#x5728;&#x7279;&#x5B9A;&#x7684;&#x6761;&#x4EF6;&#x4E0B;&#x53EF;&#x4EE5;&#x4EE5;&#x6781;&#x9AD8;&#x7684;&#x901F;&#x7387;&#x7A83;&#x53D6;&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#x7684;&#x4FE1;&#x606F;.
-Intel&#x7684;&#x82AF;&#x7247;&#x88AB;&#x6307;&#x51FA;&#x5747;&#x5B58;&#x5728;Meltdown&#x6F0F;&#x6D1E;, &#x800C;Spectre&#x6F0F;&#x6D1E;&#x5219;&#x662F;&#x5371;&#x5BB3;&#x7740;&#x6240;&#x6709;&#x67B6;&#x6784;&#x7684;&#x82AF;&#x7247;,
-&#x65E0;&#x4E00;&#x5E78;&#x514D;, &#x53EF;&#x8C13;&#x76EE;&#x524D;&#x4E3A;&#x6B62;&#x4F53;&#x7CFB;&#x7ED3;&#x6784;&#x5386;&#x53F2;&#x4E0A;&#x5F71;&#x54CD;&#x6700;&#x5927;&#x7684;&#x4E24;&#x4E2A;&#x6F0F;&#x6D1E;&#x4E86;.
-&#x5982;&#x679C;&#x4F60;&#x6267;&#x884C;<code>cat /proc/cpuinfo</code>, &#x4F60;&#x53EF;&#x80FD;&#x4F1A;&#x5728;<code>bugs</code>&#x4FE1;&#x606F;&#x4E2D;&#x770B;&#x5230;&#x8FD9;&#x4E24;&#x4E2A;&#x6F0F;&#x6D1E;&#x7684;&#x5F71;&#x5B50;.</p><p>Meltdown&#x548C;Spectre&#x7ED9;&#x8FC7;&#x53BB;&#x90A3;&#x4E9B;&#x4E00;&#x5473;&#x8FFD;&#x6C42;&#x6027;&#x80FD;&#x7684;&#x82AF;&#x7247;&#x8BBE;&#x8BA1;&#x5E08;&#x6572;&#x54CD;&#x4E86;&#x8B66;&#x949F;:
-&#x6CA1;&#x6709;&#x5B89;&#x5168;, &#x82AF;&#x7247;&#x8DD1;&#x5F97;&#x518D;&#x5FEB;, &#x4E5F;&#x662F;&#x5F92;&#x7136;.
-&#x6709;&#x8DA3;&#x7684;&#x662F;, &#x76F4;&#x63A5;&#x4E3A;&#x8FD9;&#x573A;&#x95F9;&#x5267;&#x4E70;&#x5355;&#x7684;, &#x7ADF;&#x7136;&#x662F;&#x5404;&#x5927;&#x4E91;&#x8BA1;&#x7B97;&#x5E73;&#x53F0;&#x7684;&#x5DE5;&#x7A0B;&#x5E08;&#x4EEC;:
-&#x6F0F;&#x6D1E;&#x88AB;&#x7206;&#x51FA;&#x7684;&#x90A3;&#x4E00;&#x5468;&#x65F6;&#x95F4;, &#x963F;&#x91CC;&#x4E91;&#x548C;&#x5FAE;&#x8F6F;Azure&#x7684;&#x5DE5;&#x7A0B;&#x5E08;&#x8FDE;&#x7EED;&#x901A;&#x5BB5;&#x52A0;&#x73ED;,
-&#x60F3;&#x5C3D;&#x529E;&#x6CD5;&#x7ED9;&#x4E91;&#x5E73;&#x53F0;&#x6253;&#x4E0A;&#x5B89;&#x5168;&#x8865;&#x4E01;, &#x4EE5;&#x907F;&#x514D;&#x5BA2;&#x6237;&#x7684;&#x6570;&#x636E;&#x88AB;&#x6076;&#x610F;&#x7A83;&#x53D6;.</p><p>&#x4E0D;&#x8FC7;&#x4F5C;&#x4E3A;&#x6559;&#x5B66;&#x5B9E;&#x9A8C;, &#x5B89;&#x5168;&#x8FD9;&#x4E2A;&#x8BDD;&#x9898;&#x79BB;PA&#x8FD8;&#x662F;&#x592A;&#x9065;&#x8FDC;&#x4E86;, &#x751A;&#x81F3;&#x6027;&#x80FD;&#x4E5F;&#x4E0D;&#x662F;PA&#x7684;&#x4E3B;&#x8981;&#x76EE;&#x6807;.
-&#x8FD9;&#x4E2A;&#x4F8B;&#x5B50;&#x60F3;&#x8BF4;&#x7684;&#x662F;, &#x771F;&#x5B9E;&#x7684;&#x8BA1;&#x7B97;&#x673A;&#x7CFB;&#x7EDF;&#x975E;&#x5E38;&#x590D;&#x6742;, &#x8FDC;&#x8FDC;&#x6CA1;&#x5230;&#x5B8C;&#x7F8E;&#x7684;&#x7A0B;&#x5EA6;.
-&#x8FD9;&#x4E9B;&#x6F0F;&#x6D1E;&#x7684;&#x51FA;&#x73B0;&#x4ECE;&#x67D0;&#x79CD;&#x7A0B;&#x5EA6;&#x4E0A;&#x4E5F;&#x8BF4;&#x660E;&#x4E86;, &#x4EBA;&#x4EEC;&#x5DF2;&#x7ECF;&#x6CA1;&#x6CD5;&#x4E00;&#x4E0B;&#x5B50;&#x5B8C;&#x5168;&#x60F3;&#x660E;&#x767D;&#x6BCF;&#x4E2A;&#x6A21;&#x5757;&#x4E4B;&#x95F4;&#x7684;&#x76F8;&#x4E92;&#x5F71;&#x54CD;&#x4E86;;
-&#x4F46;&#x8BA1;&#x7B97;&#x673A;&#x80CC;&#x540E;&#x7684;&#x539F;&#x7406;&#x90FD;&#x662F;&#x4E00;&#x8109;&#x76F8;&#x627F;&#x7684;, &#x5728;&#x4E00;&#x4E2A;&#x5C0F;&#x800C;&#x7CBE;&#x7684;&#x6559;&#x5B66;&#x7CFB;&#x7EDF;&#x4E2D;&#x7406;&#x89E3;&#x8FD9;&#x4E9B;&#x539F;&#x7406;,
-&#x7136;&#x540E;&#x53BB;&#x7406;&#x89E3;, &#x53BB;&#x6539;&#x8FDB;&#x771F;&#x5B9E;&#x7684;&#x7CFB;&#x7EDF;, &#x8FD9;&#x4E5F;&#x662F;&#x505A;PA&#x7684;&#x4E00;&#x79CD;&#x5B9D;&#x8D35;&#x7684;&#x6536;&#x83B7;.</p></div></div>
-<footer class="page-footer-ex"> <span class="page-footer-ex-copyright"> By <a href="https://sashimi-yzh.github.io/" target="_blank">Zihao Yu</a>, &#x91C7;&#x7528;<a href="http://creativecommons.org/licenses/by-nc-sa/3.0/cn/" target="_blank">&#x77E5;&#x8BC6;&#x5171;&#x4EAB; &#x7F72;&#x540D;-&#x975E;&#x5546;&#x4E1A;&#x6027;&#x4F7F;&#x7528;-&#x76F8;&#x540C;&#x65B9;&#x5F0F;&#x5171;&#x4EAB; 3.0 &#x4E2D;&#x56FD;&#x5927;&#x9646; &#x8BB8;&#x53EF;&#x534F;&#x8BAE;</a>&#x53D1;&#x5E03; </span> &#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0; <span class="page-footer-ex-footer-update"> &#x6B64;&#x9875;&#x9762;&#x4FEE;&#x8BA2;&#x4E8E;:  2023-10-02 16:32:48 </span> </footer>
-                                
-                                </section>
-                            
-    </div>
-    <div class="search-results">
-        <div class="has-results">
-            
-            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
-            <ul class="search-results-list"></ul>
-            
-        </div>
-        <div class="no-results">
-            
-            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
-            
-        </div>
-    </div>
+</code></pre><p>可以看到, 特权模式的检查只不过是一些门电路而已.
+如果检查不通过, 此次操作将会被判定为非法操作,
+CPU将会抛出异常信号, 并跳转到一个和操作系统约定好的内存位置, 交由操作系统进行后续处理.</p>
+<p>通常来说, 操作系统运行在S模式, 因此有权限访问所有的代码和数据;
+而一般的程序运行在U模式, 这就决定了它只能访问U模式的代码和数据.
+这样, 只要操作系统将其私有代码和数据放S模式中, 恶意程序就永远没有办法访问到它们.</p>
+<p>类似地, x86的操作系统运行在ring 0, 用户进程运行在ring 3;
+mips32的操作系统运行在内核模式, 用户进程运行在用户模式.
+这些保护相关的概念和检查过程都是通过硬件实现的,
+只要软件运行在硬件上面, 都无法逃出这一天网.
+硬件保护机制使得恶意程序永远无法全身而退, 为构建计算机和谐社会作出了巨大的贡献.</p>
+<p>这是多美妙的功能! 遗憾的是, 上面提到的很多概念其实只是一带而过,
+真正的保护机制也还需要考虑更多的细节.
+ISA手册中一般都会专门有一章来描述保护机制, 这就已经看出来保护机制并不是简单说说而已.
+根据KISS法则, 我们并不打算在NEMU中加入保护机制.
+我们让所有用户进程都运行在最高特权级, 虽然所有用户进程都有权限执行所有指令,
+不过由于PA中的用户程序都是我们自己编写的, 一切还是在我们的控制范围之内.
+毕竟, 我们也已经从上面的故事中体会到保护机制的本质了:
+在硬件中加入一些与特权级检查相关的门电路(例如比较器电路), 如果发现了非法操作,
+就会抛出一个异常信号, 让CPU跳转到一个约定好的目标位置, 并进行后续处理.</p>
+<div class="panel panel-info"><div class="panel-heading"><h5 class="panel-title" id="分崩离析的秩序"><i class="fa fa-comment-o"></i> 分崩离析的秩序</h5></div><div class="panel-body"><p>特权级保护是现代计算机系统的一个核心机制, 但并不是有了这一等级森严的制度就高枕无忧了,
+黑客们总是会绞尽脑汁去试探这一制度的边界.
+最近席卷计算机领域的, 就要数2018年1月爆出的<a href="https://meltdownattack.com/" target="_blank">Meltdown和Spectre</a>这两个大名鼎鼎的硬件漏洞了.
+这两个史诗级别的漏洞之所以震惊全世界, 是因为它们打破了特权级的边界:
+恶意程序在特定的条件下可以以极高的速率窃取操作系统的信息.
+Intel的芯片被指出均存在Meltdown漏洞, 而Spectre漏洞则是危害着所有架构的芯片,
+无一幸免, 可谓目前为止体系结构历史上影响最大的两个漏洞了.
+如果你执行<code>cat /proc/cpuinfo</code>, 你可能会在<code>bugs</code>信息中看到这两个漏洞的影子.</p><p>Meltdown和Spectre给过去那些一味追求性能的芯片设计师敲响了警钟:
+没有安全, 芯片跑得再快, 也是徒然.
+有趣的是, 直接为这场闹剧买单的, 竟然是各大云计算平台的工程师们:
+漏洞被爆出的那一周时间, 阿里云和微软Azure的工程师连续通宵加班,
+想尽办法给云平台打上安全补丁, 以避免客户的数据被恶意窃取.</p><p>不过作为教学实验, 安全这个话题离PA还是太遥远了, 甚至性能也不是PA的主要目标.
+这个例子想说的是, 真实的计算机系统非常复杂, 远远没到完美的程度.
+这些漏洞的出现从某种程度上也说明了, 人们已经没法一下子完全想明白每个模块之间的相互影响了;
+但计算机背后的原理都是一脉相承的, 在一个小而精的教学系统中理解这些原理,
+然后去理解, 去改进真实的系统, 这也是做PA的一种宝贵的收获.</p></div></div>
+<footer class="page-footer-ex"> <span class="page-footer-ex-copyright"> By <a href="https://sashimi-yzh.github.io/" target="_blank">Zihao Yu</a>, 采用<a href="http://creativecommons.org/licenses/by-nc-sa/3.0/cn/" target="_blank">知识共享 署名-非商业性使用-相同方式共享 3.0 中国大陆 许可协议</a>发布 </span>            <span class="page-footer-ex-footer-update"> 此页面修订于:  2023-10-02 16:32:48 </span> </footer>
+</section>
 </div>
-
-                        </div>
-                    </div>
-                
-            </div>
-
-            
-                
-                <a href="PA3.html" class="navigation navigation-prev " aria-label="Previous page: PA3 - 穿越时空的旅程: 批处理系统">
-                    <i class="fa fa-angle-left"></i>
-                </a>
-                
-                
-                <a href="3.2.html" class="navigation navigation-next " aria-label="Next page: 穿越时空的旅程">
-                    <i class="fa fa-angle-right"></i>
-                </a>
-                
-            
-        
-    </div>
-
-    <script>
+<div class="search-results">
+<div class="has-results">
+<h1 class="search-results-title"><span class="search-results-count"></span> results matching "<span class="search-query"></span>"</h1>
+<ul class="search-results-list"></ul>
+</div>
+<div class="no-results">
+<h1 class="search-results-title">No results matching "<span class="search-query"></span>"</h1>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<a aria-label="Previous page: PA3 - 穿越时空的旅程: 批处理系统" class="navigation navigation-prev" href="PA3.html">
+<i class="fa fa-angle-left"></i>
+</a>
+<a aria-label="Next page: 穿越时空的旅程" class="navigation navigation-next" href="3.2.html">
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+<script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
             gitbook.page.hasChanged({"page":{"title":"最简单的操作系统","level":"1.5.1","depth":2,"next":{"title":"穿越时空的旅程","level":"1.5.2","depth":2,"path":"3.2.md","ref":"3.2.md","articles":[]},"previous":{"title":"PA3 - 穿越时空的旅程: 批处理系统","level":"1.5","depth":1,"path":"PA3.md","ref":"PA3.md","articles":[{"title":"最简单的操作系统","level":"1.5.1","depth":2,"path":"3.1.md","ref":"3.1.md","articles":[]},{"title":"穿越时空的旅程","level":"1.5.2","depth":2,"path":"3.2.md","ref":"3.2.md","articles":[]},{"title":"用户程序和系统调用","level":"1.5.3","depth":2,"path":"3.3.md","ref":"3.3.md","articles":[]},{"title":"文件系统","level":"1.5.4","depth":2,"path":"3.4.md","ref":"3.4.md","articles":[]},{"title":"精彩纷呈的应用程序","level":"1.5.5","depth":2,"path":"3.5.md","ref":"3.5.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"3.x.x","theme":"default","variables":{},"plugins":["theme-comscore","intopic-toc","localized-footer","page-footer-ex","callouts"],"pluginsConfig":{"callouts":{"option":{"alert":"info","picto":"fa-edit"},"flag":{"alert":"success","picto":"fa-flag"},"question":{"alert":"info","picto":"fa-question-circle"},"info":{"alert":"info","picto":"fa-info-circle"},"todo":{"alert":"warning","picto":"fa-edit"},"caution":{"alert":"danger","picto":"fa-bullhorn"},"danger":{"alert":"danger","picto":"fa-exclamation"},"showTypeInHeader":false},"intopic-toc":{"isCollapsed":false,"isScrollspyActive":true,"label":"导航","maxDepth":6,"mode":"nested","selector":".markdown-section h2, .markdown-section h3, .markdown-section h4","visible":true},"page-footer-ex":{"copyright":"By [Zihao Yu](https://sashimi-yzh.github.io/), 采用[知识共享 署名-非商业性使用-相同方式共享 3.0 中国大陆 许可协议](http://creativecommons.org/licenses/by-nc-sa/3.0/cn/)发布","markdown":true,"update_format":"YYYY-MM-DD HH:mm:ss","update_label":"此页面修订于: "},"search":{},"localized-footer":{"filename":"FOOTER.md","hline":"true"},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"theme-comscore":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles.css","pdf":"styles.css"}},"file":{"path":"3.1.md","mtime":"2023-10-02T08:32:48.512Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2023-12-05T03:26:43.464Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>
-
-        
-    <script src="gitbook/gitbook.js"></script>
-    <script src="gitbook/theme.js"></script>
-    
-        
-        <script src="gitbook/gitbook-plugin-intopic-toc/anchor.min.js"></script>
-        
-    
-        
-        <script src="gitbook/gitbook-plugin-intopic-toc/gumshoe.polyfills.min.js"></script>
-        
-    
-        
-        <script src="gitbook/gitbook-plugin-intopic-toc/plugin.js"></script>
-        
-    
-        
-        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
-        
-    
-        
-        <script src="gitbook/gitbook-plugin-search/search.js"></script>
-        
-    
-        
-        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
-        
-    
-        
-        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
-        
-    
-        
-        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
-        
-    
-        
-        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
-        
-    
-        
-        <script src="gitbook/gitbook-plugin-theme-comscore/test.js"></script>
-        
-    
-
-    </body>
-</html>
-
+{% endblock %}
